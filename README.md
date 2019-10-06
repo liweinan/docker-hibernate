@@ -89,3 +89,24 @@ SchemaUpdateDelimiterTest.java                             mapping2.hbm.xml
 SchemaUpdateFormatterTest.java                             uniqueconstraint
 ```
 
+测试用到的配置文件：
+
+```bash
+$ pwd
+/Users/weli/works/docker-hibernate
+```
+
+```bash
+$ grep -rl 'hibernate_orm_test' * | grep hibernate.properties
+databases/mariadb/resources/hibernate.properties
+databases/oracle/resources/hibernate.properties
+databases/derby/resources/hibernate.properties
+databases/pgsql/resources/hibernate.properties
+databases/mssqlserver/resources/hibernate.properties
+```
+
+
+
+
+
+
