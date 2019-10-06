@@ -24,3 +24,7 @@ CREATE DATABASE
 postgres=#
 ```
 
+数据库配置：
+
+> https://github.com/liweinan/docker-hibernate/blob/master/config.patch
+
