@@ -138,10 +138,3 @@ hibernate.cache.region.factory_class org.hibernate.testing.cache.CachingRegionFa
 hibernate.service.allow_crawling=false
 hibernate.session.events.log=true
 ```
-
-
-
-
-
-
-
