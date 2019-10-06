@@ -32,3 +32,18 @@ postgres=#
 
 > https://github.com/liweinan/docker-hibernate/blob/master/hibernate-core/src/test/resources/hibernate.properties
 
+使用配置的测试：
+
+```bash
+$ cd hibernate-core/src/test
+$ ls
+bundles   java      resources
+$ grep -rl 'hibernate.properties' *
+java/org/hibernate/test/collection/bag/BagDuplicatesTest.java
+java/org/hibernate/test/legacy/Object2.hbm.xml
+java/org/hibernate/test/legacy/MainObject.hbm.xml
+java/org/hibernate/test/annotations/formula/FormulaNativeQueryTest.java
+java/org/hibernate/test/tool/schema/IndividuallySchemaValidatorImplTest.java
+java/org/hibernate/test/tool/schema/IndividuallySchemaValidatorImplConnectionTest.java
+```
+
