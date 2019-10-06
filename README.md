@@ -151,4 +151,4 @@ postgres=#
 
 参考例子：
 
-[hibernate的测试执行](https://gist.github.com/liweinan/0da253659a7225ce438bf2b87561e0ab)
+* [hibernate的测试执行](https://gist.github.com/liweinan/0da253659a7225ce438bf2b87561e0ab)
