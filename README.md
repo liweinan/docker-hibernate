@@ -47,3 +47,45 @@ java/org/hibernate/test/tool/schema/IndividuallySchemaValidatorImplTest.java
 java/org/hibernate/test/tool/schema/IndividuallySchemaValidatorImplConnectionTest.java
 ```
 
+`schemaupdate`的相关测试目录：
+
+```bash
+$ pwd
+hibernate-core/src/test/java/org/hibernate/test/schemaupdate
+```
+
+目录里的测试文件：
+
+```bash
+$ ls
+1_Version.hbm.xml                                          SchemaUpdateGeneratingOnlyScriptFileTest.java
+2_Version.hbm.xml                                          SchemaUpdateHaltOnErrorTest.java
+3_Version.hbm.xml                                          SchemaUpdateJoinColumnNoConstraintSecondaryTableTest.java
+AbstractAlterTableQuoteSchemaTest.java                     SchemaUpdateJoinColumnNoConstraintSecondaryTablesTest.java
+AlterTableQuoteDefaultSchemaTest.java                      SchemaUpdateJoinColumnNoConstraintTest.java
+AlterTableQuoteSpecifiedSchemaTest.java                    SchemaUpdateProceedOnErrorTest.java
+ColumnNamesTest.java                                       SchemaUpdateSQLServerTest.java
+CommentGeneration.hbm.xml                                  SchemaUpdateSchemaNameTest.java
+CommentGenerationTest.java                                 SchemaUpdateTableBackedSequenceTest.java
+ConnectionsReleaseTest.java                                SchemaUpdateTest.java
+ExportIdentifierTest.java                                  SchemaUpdateWithFunctionIndexTest.java
+Group.java                                                 SchemaUpdateWithViewsTest.java
+HANASchemaMigrationTargetScriptCreationTest.java           SequenceReadingTest.java
+Hbm2ddlCreateOnlyTest.java                                 SqlServerQuoteSchemaTest.java
+IdentifierHelperTest.java                                  TableCommentTest.java
+ImplicitCompositeKeyJoinTest.java                          TestFkUpdating.java
+MigrationTest.java                                         User.java
+MixedFieldPropertyAnnotationTest.java                      UserGroup.hbm.xml
+PostgreSQLMultipleSchemaSequenceTest.java                  Version.java
+QuotedTableNameSchemaUpdateTest.java                       derivedid
+QuotedTableNameWithForeignKeysSchemaUpdateTest.java        foreignkeys
+SchemaDropTest.java                                        idbag
+SchemaExportTest.java                                      idgenerator
+SchemaExportWithGlobalQuotingEnabledTest.java              index
+SchemaExportWithIndexAndDefaultSchema.java                 inheritance
+SchemaMigrationTargetScriptCreationTest.java               manytomany
+SchemaMigratorHaltOnErrorTest.java                         mapping.hbm.xml
+SchemaUpdateDelimiterTest.java                             mapping2.hbm.xml
+SchemaUpdateFormatterTest.java                             uniqueconstraint
+```
+
