@@ -148,3 +148,7 @@ postgres=# create database hibernate_orm_test with owner hibernate_orm_test;
 CREATE DATABASE
 postgres=#
 ```
+
+参考例子：
+
+[hibernate的测试执行](https://gist.github.com/liweinan/0da253659a7225ce438bf2b87561e0ab)
