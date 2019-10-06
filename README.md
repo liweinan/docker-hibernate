@@ -28,3 +28,7 @@ postgres=#
 
 > https://github.com/liweinan/docker-hibernate/blob/master/config.patch
 
+所配置的文件：
+
+> https://github.com/liweinan/docker-hibernate/blob/master/hibernate-core/src/test/resources/hibernate.properties
+
