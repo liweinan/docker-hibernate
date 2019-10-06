@@ -138,3 +138,13 @@ hibernate.cache.region.factory_class org.hibernate.testing.cache.CachingRegionFa
 hibernate.service.allow_crawling=false
 hibernate.session.events.log=true
 ```
+
+创建对应的数据库：
+
+```bash
+postgres=# create user hibernate_orm_test with password 'hibernate_orm_test';
+CREATE ROLE
+postgres=# create database hibernate_orm_test with owner hibernate_orm_test;
+CREATE DATABASE
+postgres=#
+```
